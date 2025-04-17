@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #186b80;
+    height: 100vh;
+    color: #2c3e50;
+    font-family: "Poppins", sans-serif;
+  }
+
+.container{
+    padding: 20px 50px;
+    border: 2px solid #000000;
+    background-color: #f0f2f3;
+    border-radius:60px;
+}
+
+.container h1{
+    display: flex;
+    padding: 25px 80px;
+    color: rgb(47, 150, 150);
+}
+
+.login-password label{
+    display: flex;
+    padding: 20px 0 2px 5px;
+    font-weight: bold;
+}
+
+.login-password input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    cursor:text ;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #aaaaaa;
+    font-size: 16px;
+}
+
+/* .login-password input::placeholder{
+    padding-left: 10px;
+} */
+
+.remember-password input{
+    accent-color: #186b80;
+    cursor: pointer;
+}
+
+.remember-password{
+    padding: 10px 0 20px 10px;
+}
+
+.logar button{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #2CA6A4;
+    border: 2px solid #1D7F7D;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logar button:hover{
+    background-color: #1D7F7D;
+    transition: 1s ease;
+}
+
+.Create-account{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Create-account a{
+    text-decoration: none;
+    color: #1D7F7D;
+}
